@@ -1,0 +1,14 @@
+body {
+    /*background-color: powderblue;*/
+    background-image: url("http://localhost/arbeit2/img/shutterstock_1850079634.jpg");
+    background-repeat: no-repeat;
+}
+h1 {
+    color: blue;
+}
+p {
+    color:red;
+}
+ul {
+    background-color: #ff000018;
+}

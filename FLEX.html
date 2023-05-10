@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-size: 100% auto;
+            background-position: center;
+        }
+
+        h1 {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: lawngreen;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+        }
+
+        nav {
+            width: 25%;
+            padding: 25px;
+            height: inherit;
+            background-color: red;
+        }
+        ul {
+            display:flex;
+            flex-direction: column;
+        }
+
+        button {
+            border-radius: 5px;
+            padding: 25px;
+            background-color: steelblue;
+        }
+
+        a {
+            font-family: "Comic Sans MS";
+        }
+
+        imgSpace {
+            width: 75%;
+            background-color: blue;
+        }
+
+        imgSpace img {
+            width: 250px;
+        }
+
+
+
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cont {
+            height: 80vh;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<header class="flex">
+    <h1>Banner volle Breite</h1>
+</header>
+<div class="cont">
+    <nav class="flex">
+    <ul>
+        <button><a href="#">NAV 1</a></button>
+        <button><a href="#">NAV 2</a></button>
+        <button><a href="#">NAV 3</a></button>
+    </ul>
+    </nav>
+    <imgSpace class="flex">
+        <img src="img/img.jpg" alt="img">
+    </imgSpace>
+
+</div>
+
+
+</body>
+</html>

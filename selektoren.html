@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* alle img-Elemente (egal wie tief verschachtelt), die innerhalb eines a-Elemente vorkommen,
+      erhalten einen orangen Rand*/
+        a img {
+            border: 4px solid orange;
+        }
+        h2 > img {
+            border: 4px solid orange;
+        }
+    </style>
+</head>
+<body>
+<h3> HTML-Elemente ansprechen mittels Hierarchie</h3>
+<div>
+    <a href="#">
+        <img src="img/Cheesy-Pineapple-Pizza.jpg" width="400" height="300">
+        <div>
+            <img src="img/vespaGT.jpg" width="400" height="300">
+        </div>
+    </a>
+    <img src="img/Cheesy-Pineapple-Pizza.jpg" width="400" height="300">
+
+    <h2>
+        <img src="img/Cheesy-Pineapple-Pizza.jpg" width="400" height="300">
+        <div>
+            <img src="img/vespaGT.jpg" width="400" height="300">
+        </div>
+    </h2>
+    <p></p>
+    <ul>
+        <li></li>
+        <li><p></p></li>
+        <li></li>
+    </ul>
+    <p></p>
+</div>
+</body>
+</html>
